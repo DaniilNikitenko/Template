@@ -9,7 +9,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 100%;
+	width: 0;
 	height: 47px;
 	background-color: #2A2C3F;
 	z-index: 4;
@@ -76,5 +76,9 @@
 		position: relative;
 		z-index: 5;
 		padding: 15px 0;
+	}
+
+	.footer:after {
+		width: 100%;
 	}
 }
