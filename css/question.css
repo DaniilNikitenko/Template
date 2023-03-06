@@ -88,6 +88,10 @@
 }
 
 @media screen and (max-width:1024px) {
+	.question {
+		padding-bottom: 56px;
+	}
+
 	.question__title {
 		font-size: 32px;
 	}
@@ -106,6 +110,10 @@
 }
 
 @media screen and (max-width:475px) {
+	.question {
+		padding: 30px 0;
+	}
+
 	.question__title {
 		font-size: 20px;
 	}
