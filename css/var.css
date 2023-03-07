@@ -12,4 +12,8 @@
 	:root {
 		--gap: 40px;
 	}
+
+	.advantages {
+		--cart-count: 1;
+	}
 }

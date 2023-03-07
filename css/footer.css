@@ -1,26 +1,15 @@
 .footer {
 	background-color: #2F324B;
-	padding: 45px 0;
-	position: relative;
+	padding: 41px 0;
 }
 
-.footer:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0;
-	height: 47px;
-	background-color: #2A2C3F;
-	z-index: 4;
-}
 
 .footer__container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	gap: 29px;
+	gap: 28px;
 }
 
 
@@ -52,13 +41,23 @@
 @media screen and (max-width:1024px) {
 	.footer__author {
 		color: #ffffff4d;
+
+	}
+
+	.footer__text-hidden {
+		display: none;
+	}
+
+	.footer {
+		padding: 35px 0;
 	}
 
 }
 
 @media screen and (max-width:670px) {
 	.footer {
-		padding: 29px 0 0;
+		padding: 23px 0 15px;
+		background-image: linear-gradient(transparent 60%, #2A2C3F 40%);
 	}
 
 	.footer__info {
@@ -73,9 +72,7 @@
 		order: 3;
 		width: 100%;
 		text-align: center;
-		position: relative;
-		z-index: 5;
-		padding: 15px 0;
+		padding-top: 10px;
 	}
 
 	.footer:after {
